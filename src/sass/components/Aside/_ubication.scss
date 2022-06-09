@@ -1,0 +1,11 @@
+.ubication__container{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    :nth-child(n){
+        color: darken($color: $white-darken, $amount: 20);
+    }
+    span{
+        margin-left: 7px;
+    }
+}

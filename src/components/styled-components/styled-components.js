@@ -1,15 +1,16 @@
 import styled from 'styled-components';
-    
-export const Display = styled.div`
+import s from '../../assets/icons-weather/s.svg';
+
+export const Container = styled.div`
     display: flex;
     justif-content: center;
     align-items: center;
     flex-direction: column;
 `
 
-export const Image = styled.img.attrs(({icon}) => ({
-    src: ``,
-    alt: icon
+export const Image = styled.img.attrs(({src}) => ({
+    src: s,
+    alt: src
 }))`
     width: 30rem;
 `
