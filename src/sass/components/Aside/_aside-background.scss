@@ -1,0 +1,22 @@
+.aside-background__wrapper{
+    display: block;
+    :nth-child(n){
+        font-size: 15rem;
+        color: rgba(lighten($primary, 40), $alpha: 0.2);
+        position: absolute;
+    }
+    :first-child {
+        left: -10px;
+    }
+    :nth-child(2){
+        right: -50px;
+    }
+    :nth-child(3){
+        left: -30px;
+        top: 200px;
+    }
+    :nth-child(4){
+        right: -5px;
+        top: 230px;
+    }
+}
